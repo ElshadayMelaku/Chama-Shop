@@ -1,0 +1,96 @@
+/* Style for search results */
+.container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(235, 206, 168)
+}
+/* .SearchSpan{
+color: rgb(235, 206, 168);
+} */
+
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    margin: 20px auto;
+    width: 80%;
+    text-align: center; /* Center align the form and search text */
+}
+
+.SearchText {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.SearchForm {
+    display: inline-block; /* Display form elements in line */;
+}
+
+.SearchForm input[type="text"] {
+    padding: 10px;
+    width: 300px; /* Adjust width as needed */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.SearchButton {
+    padding: 10px 20px;
+    background-color:  rgb(235, 206, 168); /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.SearchButton:hover {
+    background-color: rgb(180, 108, 19); /* Darker green */
+}
+
+
+.product-list li {
+    width: calc(25% - 20px); /* Each product takes 25% width of the container minus margins */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.product-list li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.product-list li img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.product-info strong {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product-info p {
+    font-size: 14px;
+    margin: 5px 0;
+}

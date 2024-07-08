@@ -1,0 +1,73 @@
+.head
+{
+background-color:  rgb(235, 206, 168);
+}
+.nav-icon{
+    color: black;
+}
+#SingleProduct{
+    display: flex;
+    margin-top: 100px;
+
+}
+
+#SingleProduct .big-image{
+    width: 20%;
+    margin-right: 50px;
+}
+.small_images-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small_images-col{
+    flex-basis:  24%;
+    cursor: pointer;
+}
+#SingleProduct .SingleProductDetails{
+    width: 50%;
+    padding-top: 30px;
+    margin-top: 40px;
+    margin-left: 30px;
+
+
+}
+#SingleProduct .SingleProductDetails h4{
+    padding: 40px 0 20px 0;
+    font-size: 20px;
+}
+#SingleProduct .SingleProductDetails h6{
+    font-size: 20px;
+}
+#SingleProduct .SingleProductDetails h2{
+   font-size: 26px;
+}
+#SingleProduct .SingleProductDetails select{
+    padding: 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+#SingleProduct .SingleProductDetails input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#SingleProduct .SingleProductDetails input:focus
+{
+outline: none;
+}
+.add-btn{
+    background-color: bisque;
+    color: aliceblue;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: 2px solid #fbfbfb;
+    padding: 12px 25px;
+}
+#SingleProduct .SingleProductDetails span{
+    line-height: 25px;
+}

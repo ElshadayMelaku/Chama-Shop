@@ -1,0 +1,45 @@
+.head 
+{
+    background-color:rgb(235, 206, 168) ;
+}
+.cartheading-text
+{
+margin-top: 200px;
+color: rgb(235, 206, 168);
+font-size: 50px;
+text-transform: capitalize;
+text-align: left;
+margin-bottom: 30px;
+
+}
+.total-price {
+    font-size: 18px; /* Moderate font size */
+    font-weight: 600; /* Slightly bold */
+    color: #333; /* Darker, more neutral color */
+    margin: 10px 0; /* Smaller margin for spacing */
+    text-align: center; /* Center the text */
+    padding: 8px 16px; /* Moderate padding */
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Slightly rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Very subtle shadow */
+}
+
+
+.checkoutbtn {
+    background-color: rgb(235, 206, 168); /* Green background */
+    color: white; /* White text */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Make the button an inline block */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.checkoutbtn:hover {
+    background-color: rgb(202, 151, 85); /* Darker green background on hover */
+}
